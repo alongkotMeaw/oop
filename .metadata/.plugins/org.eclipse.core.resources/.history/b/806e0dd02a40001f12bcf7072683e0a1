@@ -1,0 +1,19 @@
+package lap5;
+
+public class Cashier {
+	//atibute
+	private String name;
+	
+	//constructer
+	public Cashier(String name) {
+		this.name = name;
+	}
+	
+	public void printReceipt(inventoryCart ci) {
+		System.out.printf("\tPumkin Shop (%s)\n");
+		ci.cart_show();
+		
+		
+	}
+
+}

@@ -1,0 +1,44 @@
+package lap5;
+
+
+public class inventoryCart {
+	//atibute
+	private int numItem = 1; //// something wrong
+	private int round = 0;
+	
+	
+	//constructer
+		public  inventoryCart(int num) {
+			this.numItem = num;
+		}
+		//asign product
+		Product[] proInCart = new Product [numItem];
+		
+		
+		
+    
+		
+		
+	//method
+		public void add(Product add) {
+			if(round < numItem) {
+				proInCart[round] = add;
+				round++;
+			}
+			else System.out.println("Your inventory full");
+		}
+		
+		public void getProduct() {
+			int i = 0;
+			for(; i <= round;i++) {
+				proInCart[i].show();
+				
+			}
+			
+		}
+		
+		public void  getAllProduct() {
+			
+		}
+		
+}

@@ -1,0 +1,21 @@
+package lap3;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Book book1 = new Book(); //create book
+		//asian 
+		book1.name
+
+	}
+
+}
+
+/*
+public class Book{
+String name;
+float price;
+int year;
+String author;
+}
+*/

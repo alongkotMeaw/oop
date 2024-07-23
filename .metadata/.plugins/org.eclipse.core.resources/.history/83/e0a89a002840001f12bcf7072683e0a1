@@ -1,0 +1,82 @@
+package lap5;
+
+
+public class inventoryCart {
+	//atibute
+	private int numItem = 200; //// ประกาศเยอะไว้ก่อน
+	private int[] item_sum = new int[numItem];
+    private static int round = 0;
+    private Boolean check_add = true;
+  //atibute f
+    private int i_show;
+    private int i_get;
+    private static int i_swap;
+	
+	
+	//constructer
+		public  inventoryCart(int num) {
+			this.numItem = num;
+		}
+		//asign product
+		Product[] proInCart = new Product [numItem];
+		
+		
+		
+    
+		
+		
+	//method
+		public void add(Product add) {
+		check_add = true; //reset 
+		for(int i = 0; i < round;i++) {
+			if(add.get_name().equals(proInCart[i].get_name()))  { ///check in cart //string3.equals(string4) //stinr stall in different position
+				item_sum[i] +=1;
+				check_add = false;
+				break;
+			}
+		}
+		if(round < numItem && check_add) {
+			proInCart[round] = add;
+			item_sum[round] +=1;
+			round++;
+		}
+		else System.out.println("Your inventory full");
+	  }
+		
+		
+		public  void swap_index(Product swap,int index) {
+			for(i_swap = index;i_swap < round;i_swap++) {
+				proInCart[i_swap] = proInCart[i_swap + 1];
+			}
+			proInCart[round] = null;
+			
+		}
+			
+		
+		
+		
+		public void getProduct(Product get) {
+			for(i_get = 0; i_get < round;i_get++) {
+				if(get.get_name().equals(proInCart[i_get].get_name()))  { ///check in cart //string3.equals(string4) //stinr stall in different position
+					item_sum[i_get] -=1;
+					if(item_sum[i_get] == 0) swap_index(get, i_get); /// call to delete product out of item
+					break;
+				}
+				
+			}
+		}
+		
+		public void  getAllProduct(Product get_all) {
+			
+			
+		}
+		
+		public void cart_show() {
+			for(i_show = 0; i_show < round;i_show++) {
+				proInCart[i_show].show();
+				System.out.println(item_sum[i_show]);
+				
+			}
+		}
+		
+}

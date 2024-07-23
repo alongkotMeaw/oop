@@ -1,0 +1,22 @@
+package lap5;
+
+public class Product {
+	//atibute
+	private String code;
+	private String name;
+	private int price;
+	
+	
+	//defal constructer
+	public  Product() {}
+	
+	//constructer
+	public Product(String code,String name, int price) {
+		this.name = name;
+		this.price = price;
+		this.code = code;
+	}
+	
+	//method
+	
+}

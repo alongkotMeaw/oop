@@ -1,0 +1,14 @@
+package lap3;
+
+public class test {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = new String ("abc");
+		System.out.println(s);
+		s.length() == 3;
+		s.substring(2);
+		s.equals("abc");
+
+	}
+
+}

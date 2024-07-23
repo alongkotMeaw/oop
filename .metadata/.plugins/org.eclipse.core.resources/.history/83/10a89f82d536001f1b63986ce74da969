@@ -1,0 +1,27 @@
+package lap2;
+
+public class ex2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final int SIZE = 5;
+		//asgin array
+		int[][] grid = new int[SIZE][SIZE];
+		for (int i = 0; i < SIZE; i++) {
+			for (int j = 0; j < SIZE; j++) {
+				grid[i][j] = i * SIZE +j +1;
+			}
+		}
+		
+		//print 1
+		for (int i = 0; i < SIZE; i++) {
+			for (int j = 0; j < SIZE; j++) {
+				if(grid[j][i] > 5 && grid[j][i] < 9)
+					System.out.print(" ");
+				System.out.print(grid[j][i] + " ");
+			}
+			System.out.println(" ");
+		}
+	}
+
+}

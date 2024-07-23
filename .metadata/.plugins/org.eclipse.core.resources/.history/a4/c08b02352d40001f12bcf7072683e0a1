@@ -1,0 +1,20 @@
+package lap5;
+
+public class Cashier {
+	//atibute
+	private String name;
+	private int total = 0;
+	private int round;
+	//constructer
+	public Cashier(String name) {
+		this.name = name;
+	}
+	
+	public void printReceipt(inventoryCart ci) {
+		System.out.printf("\tPumkin Shop (%s)\n",name);
+		round = ci.get_round();
+		System.out.println(round);
+		
+	}
+
+}

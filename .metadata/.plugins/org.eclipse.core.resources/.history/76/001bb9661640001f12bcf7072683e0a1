@@ -1,0 +1,43 @@
+package lap5;
+
+
+public class inventoryCart {
+	//atibute
+	private int numItem = 10; //// something wrong
+	private int round = 1;
+	
+	//constructer
+		public  inventoryCart(int num) {
+			this.numItem = num;
+		}
+		//asign product
+		private Product[] proInCart = new Product[numItem];
+		
+		
+    
+		
+		
+	//method
+		public void add(Product p) {
+			
+			proInCart[round] =  p;
+			round++;
+			
+			
+		}
+		
+		
+		public int  getProduct() {
+			numItem = this.numItem - 1;
+			return 1;
+		}
+		
+		public int  getAllProduct() {
+			this.numItem = 0;
+			return this.numItem;
+		}
+		public int get_numItem() {
+			return numItem;
+			
+		}
+}

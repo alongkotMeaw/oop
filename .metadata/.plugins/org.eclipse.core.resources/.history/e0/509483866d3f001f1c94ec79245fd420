@@ -1,0 +1,24 @@
+package lap5;
+
+public class inventoryCart {
+	//atibute
+	private int numItem;
+	
+	//defal constructer
+		public  inventoryCart() {}
+    //constructer
+		public  inventoryCart(int numItem) {
+			this.numItem = numItem;
+	    }
+		
+	//method
+		public int  getProduct() {
+			this.numItem = this.numItem - 1;
+			return 1;
+		}
+		
+		public int  getAllProduct() {
+			this.numItem = 0;
+			return this.numItem;
+		}
+}
