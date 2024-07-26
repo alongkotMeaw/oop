@@ -19,8 +19,10 @@ public class main {
 		 ic.add(p3); 
 		 ic.add(p3); 
 		 ic.add(p3); 
-		 ic.add(p3); 
+		 ic.add(p3);
+		 ic.add(p1);
 		 ic.getProduct(p2);
+		 
 		 //ic.getAllProduct();
 		 //ic.cart_show(); //show product in cart
 		 //ic.getProduct(p2);
