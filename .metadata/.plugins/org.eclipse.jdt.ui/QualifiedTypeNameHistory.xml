@@ -14,4 +14,7 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="lap5.inventoryCart"/>
     <fullyQualifiedTypeName name="java.time.DayOfWeek"/>
+    <fullyQualifiedTypeName name="lap6_3.CommissionPay"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="lap6_3.Employees"/>
 </qualifiedTypeNameHistroy>
