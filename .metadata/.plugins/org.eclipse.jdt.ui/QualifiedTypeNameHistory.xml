@@ -11,10 +11,13 @@
     <fullyQualifiedTypeName name="lap4.product"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
     <fullyQualifiedTypeName name="lap5.Product"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="lap5.inventoryCart"/>
     <fullyQualifiedTypeName name="java.time.DayOfWeek"/>
     <fullyQualifiedTypeName name="lap6_3.CommissionPay"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="lap6_3.Employees"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="mid.injection"/>
+    <fullyQualifiedTypeName name="mid.vacine"/>
+    <fullyQualifiedTypeName name="mid.person"/>
 </qualifiedTypeNameHistroy>
