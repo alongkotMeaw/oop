@@ -16,8 +16,14 @@
     <fullyQualifiedTypeName name="lap6_3.CommissionPay"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="lap6_3.Employees"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="mid.injection"/>
     <fullyQualifiedTypeName name="mid.vacine"/>
     <fullyQualifiedTypeName name="mid.person"/>
+    <fullyQualifiedTypeName name="test.ConsoleColors"/>
+    <fullyQualifiedTypeName name="java.awt.print.Book"/>
+    <fullyQualifiedTypeName name="midBook.Libary"/>
+    <fullyQualifiedTypeName name="midBook.Book"/>
+    <fullyQualifiedTypeName name="midBook.Customer"/>
+    <fullyQualifiedTypeName name="midBook.shelf"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
