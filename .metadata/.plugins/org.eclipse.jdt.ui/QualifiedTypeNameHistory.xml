@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="lap4.BankAccount"/>
     <fullyQualifiedTypeName name="lap4.Date"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.lang.ScopedValue"/>
     <fullyQualifiedTypeName name="java.lang.classfile.attribute.NestHostAttribute"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -15,7 +14,6 @@
     <fullyQualifiedTypeName name="java.time.DayOfWeek"/>
     <fullyQualifiedTypeName name="lap6_3.CommissionPay"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="lap6_3.Employees"/>
     <fullyQualifiedTypeName name="mid.injection"/>
     <fullyQualifiedTypeName name="mid.vacine"/>
     <fullyQualifiedTypeName name="mid.person"/>
@@ -25,5 +23,16 @@
     <fullyQualifiedTypeName name="midBook.Book"/>
     <fullyQualifiedTypeName name="midBook.Customer"/>
     <fullyQualifiedTypeName name="midBook.shelf"/>
+    <fullyQualifiedTypeName name="lapP_7.Rollable"/>
+    <fullyQualifiedTypeName name="lapP_7.Ball"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="lap_7_2.Withdrawable"/>
+    <fullyQualifiedTypeName name="javax.swing.tree.FixedHeightLayoutCache"/>
+    <fullyQualifiedTypeName name="lap6_3.Employees"/>
+    <fullyQualifiedTypeName name="lap6_3.FixedSalary"/>
+    <fullyQualifiedTypeName name="lap_7_2.Card"/>
+    <fullyQualifiedTypeName name="lap6_2.Cashier"/>
+    <fullyQualifiedTypeName name="lap_7_2.BaseAccount"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="lap6_2.Product"/>
 </qualifiedTypeNameHistroy>
