@@ -25,6 +25,7 @@
     <fullyQualifiedTypeName name="midBook.shelf"/>
     <fullyQualifiedTypeName name="lapP_7.Rollable"/>
     <fullyQualifiedTypeName name="lapP_7.Ball"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="lap_7_2.Withdrawable"/>
     <fullyQualifiedTypeName name="javax.swing.tree.FixedHeightLayoutCache"/>
     <fullyQualifiedTypeName name="lap6_2.Cashier"/>
@@ -46,4 +47,16 @@
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="javax.swing.JPanel"/>
     <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+=======
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="lap_7_2.Withdrawable"/>
+    <fullyQualifiedTypeName name="javax.swing.tree.FixedHeightLayoutCache"/>
+    <fullyQualifiedTypeName name="lap6_3.Employees"/>
+    <fullyQualifiedTypeName name="lap6_3.FixedSalary"/>
+    <fullyQualifiedTypeName name="lap_7_2.Card"/>
+    <fullyQualifiedTypeName name="lap6_2.Cashier"/>
+    <fullyQualifiedTypeName name="lap_7_2.BaseAccount"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="lap6_2.Product"/>
+>>>>>>> bf50ca6191d72ed56c530679c376838a047a9657
 </qualifiedTypeNameHistroy>

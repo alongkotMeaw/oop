@@ -29,7 +29,11 @@ public class Main {
 		ic.add(p3); 
 		ic.add(p4); 
 		 Cashier c = new Cashier(); 
+<<<<<<< HEAD
 		 c.doPayment(ic,employeeA.getCard()); 
+=======
+		 //c.doPayment(ic,employeeA.getCard()); 
+>>>>>>> bf50ca6191d72ed56c530679c376838a047a9657
 		 c.printReceipt(); 
 	}
 

@@ -1,6 +1,7 @@
 package lap_7_2;
 
 public class DebitCard extends Card{
+<<<<<<< HEAD
 	private String type = "Visa";
 	private SavingAccount acout;
 	protected double discount = 2.5;
@@ -32,5 +33,7 @@ public class DebitCard extends Card{
 	public void setSecnum(String secnum) {
 		this.secnum = secnum;
 	}
+=======
+>>>>>>> bf50ca6191d72ed56c530679c376838a047a9657
 
 }

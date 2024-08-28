@@ -7,6 +7,7 @@ public class BallA extends Ball implements Rollable{
 	public void inflate(double volume) {
     	this.volume = volume;
     }
+<<<<<<< HEAD
 	public void roll() {
 	    roll = "rather smoothly.";
 	}
@@ -29,6 +30,42 @@ public class BallA extends Ball implements Rollable{
 
 	
 	
+=======
+	
+	public void roll() {
+	    roll = "rather smoothly.";
+	}
+
+	
+	
+	public double getVolume() {
+		return volume;
+	}
+
+	public void setVolume(double volume) {
+		this.volume = volume;
+	}
+
+	public String getRool() {
+		return roll;
+	}
+
+	public void setRool(String rool) {
+		this.roll = rool;
+	}
+
+	public void Ball(String ball){
+		tradeMark = ball;
+	}
+	
+	public String getTrademark() {
+		return tradeMark;
+	}
+	
+	public char getBallname() {
+		return ballName;
+	}
+>>>>>>> bf50ca6191d72ed56c530679c376838a047a9657
 	
 
 }
