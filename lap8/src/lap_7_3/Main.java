@@ -24,7 +24,8 @@ public class Main {
 		ActionListener buttonClickListener = new ActionListener() {
 			 public void actionPerformed(ActionEvent e) {
 				count++; 
-				jb.setText("Clicked " + count); 
+				//jb.setText("Clicked " + count); 
+				System.out.println(count);
 			 }
 		  };
 		    

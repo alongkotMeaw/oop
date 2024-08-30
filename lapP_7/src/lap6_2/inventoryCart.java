@@ -100,7 +100,7 @@ public class inventoryCart {
 		}
 		
 		public int get_prince(int index_price) {
-			return proInCart[index_price].get_price(); 
+			return proInCart[index_price ].get_price(); 
 		}
 		
 		public String get_code(int index_code) {

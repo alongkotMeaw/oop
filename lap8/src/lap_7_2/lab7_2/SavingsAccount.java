@@ -1,0 +1,35 @@
+package th.ac.ku.kps.eng.cpe.oop.lab7_2;
+
+public class SavingsAccount extends BaseAccount{
+	
+	private Employee exp;
+	private Card card;
+	private double amount = 0;
+
+	public SavingsAccount(Employee exp) {
+		this.exp = exp;
+		card = new DebitCard(this);
+		exp.setAccount(this);
+	}
+	public boolean withdraw(double amount) {
+		if(amount <= this.amount) {
+			this.amount -= amount;
+			return true;
+		}
+		return false;
+	}
+	public boolean deposit(double amount) {
+		this.amount += amount;
+		return true;
+	}
+	public Employee getEmployee() {
+		return exp;
+	}
+	public Card getCard() {
+		return card;
+	}
+
+	public double getAmount() {
+		return amount;
+	}
+}
