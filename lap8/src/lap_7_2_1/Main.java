@@ -24,10 +24,6 @@ public class Main {
                     }
                     return null;
                 }
-
-                public void remove() {
-                    // ไม่ต้องทำอะไรในที่นี้
-                }
             };
         }
     }

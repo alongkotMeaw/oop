@@ -51,7 +51,7 @@ public class SavingAccount extends BaseAccount {
 		private String type = "Visa";
 		private SavingAccount acout;
 		protected double discount = 2.5;
-		private String secnum = "5555";
+		private String secnum;
 
 		public DebitCard(SavingAccount a) {
 			this.acout = a;
