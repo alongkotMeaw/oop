@@ -9,12 +9,12 @@
     <fullyQualifiedTypeName name="lap9_2.Main.IncompleteGradeException"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="lap9_2.Main.SpaceException"/>
-    <fullyQualifiedTypeName name="lap9_2.IncompleteException"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="lap9_2.SpaceException"/>
-    <fullyQualifiedTypeName name="lap9_2.GradeException"/>
     <fullyQualifiedTypeName name="java.security.PrivateKey"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="lap9_2.DigitException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="lap9_2.GradeException"/>
+    <fullyQualifiedTypeName name="lap9_2.IncompleteException"/>
 </qualifiedTypeNameHistroy>
