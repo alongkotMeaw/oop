@@ -8,37 +8,41 @@ import javax.swing.JTextField;
 
 public class mygridlayout extends JFrame {
 
+	JButton b_1, b_2, b_3, b_4, b_5, b_6, b_7, b_8, b_9, b_c, b_ce, b_divide, b_multiply, b_plus, b_minus, b_sum;
+	JTextField textField;
+
 	public mygridlayout() {
 
-		// ตั้งค่า Layout เป็น GridBagLayout
 		GridBagLayout layout = new GridBagLayout();
 		GridBagConstraints con = new GridBagConstraints();
 		this.setSize(320, 550);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setTitle("Calculate");
+		this.setTitle("Calculater");
 		this.setLayout(layout);
 		this.setLocationRelativeTo(null);
 
-		// สร้างปุ่มต่าง ๆ
-		JButton b_1 = new JButton("1");
-		JButton b_2 = new JButton("2");
-		JButton b_3 = new JButton("3");
-		JButton b_4 = new JButton("4");
-		JButton b_5 = new JButton("5");
-		JButton b_6 = new JButton("6");
-		JButton b_7 = new JButton("7");
-		JButton b_8 = new JButton("8");
-		JButton b_9 = new JButton("9");
-		JButton b_c = new JButton("C");
-		JButton b_ce = new JButton("CE");
-		JButton b_divide = new JButton("/");
-		JButton b_multiply = new JButton("*");
-		JButton b_plus = new JButton("+");
-		JButton b_minus = new JButton("-");
-		JButton b_sum = new JButton("=");
+		b_1 = new JButton("1");
+		b_2 = new JButton("2");
+		b_3 = new JButton("3");
+		b_4 = new JButton("4");
+		b_5 = new JButton("5");
+		b_6 = new JButton("6");
+		b_7 = new JButton("7");
+		b_8 = new JButton("8");
+		b_9 = new JButton("9");
+		b_c = new JButton("C");
+		b_ce = new JButton("CE");
+		b_divide = new JButton("/");
+		b_multiply = new JButton("*");
+		b_plus = new JButton("+");
+		b_minus = new JButton("-");
+		b_sum = new JButton("=");
 
-		JTextField textField = new JTextField();
+		/// set text layout
+		textField = new JTextField();
 		textField.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 50));
+		textField.setHorizontalAlignment(JTextField.RIGHT); // set text in right
+
 		con.gridx = 0;
 		con.gridy = 0;
 		con.gridwidth = 4;
@@ -69,7 +73,6 @@ public class mygridlayout extends JFrame {
 		con.gridx = 3;
 		con.gridy = 2;
 		this.add(b_multiply, con);
-
 
 		con.gridx = 0;
 		con.gridy = 3;
@@ -102,11 +105,11 @@ public class mygridlayout extends JFrame {
 		con.gridx = 3;
 		con.gridy = 4;
 		this.add(b_minus, con);
-		
+
 		con.gridx = 0;
 		con.gridy = 5;
 		this.add(b_7, con);
-		
+
 		con.gridx = 1;
 		con.gridy = 5;
 		this.add(b_8, con);
@@ -118,7 +121,6 @@ public class mygridlayout extends JFrame {
 		con.gridx = 3;
 		con.gridy = 5;
 		this.add(b_sum, con);
-
 		this.setVisible(true);
 	}
 
