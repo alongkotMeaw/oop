@@ -29,7 +29,7 @@ public class Cell extends JButton {
     /** Is Flagged by player? */
     boolean isFlagged;
     //has mine near
-    int has_mine_near;
+    
     /** Constructor */
     public Cell(int row, int col) {
         super(); // JTextField

@@ -8,5 +8,8 @@ public class MineSweeperConstants {
     public static int ROWS = 10;
     /** Number of columns */
     public static int COLS = 10;
+    
+    
+    public static int mind_num;
 
 }
