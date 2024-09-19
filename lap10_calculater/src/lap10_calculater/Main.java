@@ -1,11 +1,5 @@
 package lap10_calculater;
 
-import javax.swing.JFrame;
-//////////********************************************************************************************//////////
-//not suport for input < 10
-// -value and only cal integer
-
-
 public class Main {
 
 	public static void main(String[] args) {

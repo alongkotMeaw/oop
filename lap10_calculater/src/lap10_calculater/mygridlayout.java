@@ -1,5 +1,6 @@
 package lap10_calculater;
 
+import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import javax.swing.JButton;
@@ -40,8 +41,11 @@ public class mygridlayout extends JFrame {
 
 		/// set text layout
 		textField = new JTextField();
-		textField.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 50));
+		textField.setPreferredSize(new Dimension(100,100));
+		textField.setFont(new java.awt.Font("Arial", java.awt.Font.PLAIN, 40));
 		textField.setHorizontalAlignment(JTextField.RIGHT); // set text in right
+		textField.setEditable(false); //set can't edit by keyboard
+		textField.setText("0");
 
 		con.gridx = 0;
 		con.gridy = 0;

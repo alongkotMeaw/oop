@@ -11,14 +11,13 @@ public class moreaction {
 	private int lastIndexOpera;
 	private boolean checkLastIndexOPera = true; // for check last first for unsuport casre EX +5+5 or 5+5-
 	private boolean checFristIndexopera = true;
-
 	public moreaction(mygridlayout layout) {
 		this.layout = layout;
 	}
 
 	ActionListener buttonListener = new ActionListener() {
 		public void actionPerformed(ActionEvent e) {
-			// for 1
+			// for
 			if (e.getSource() == layout.b_1) {
 				System.out.println("press 1");
 				opera = opera + '1';
